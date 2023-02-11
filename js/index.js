@@ -1,3 +1,4 @@
+// Variáveis que representam os elementos HTML
 var btnConsultar = document.querySelector("#consultar"),
 cityTxt = document.querySelector("#cityTxt"),
 weatherInfo = document.querySelector("#weather-info"),
@@ -8,13 +9,19 @@ tempMax = document.querySelector("#tempMax"),
 proximoDia = document.querySelector("#proximoDia"),
 proximoDia2 = document.querySelector("#proximoDia2");
 
+// Adiciona um evento ao botão "consultar" para chamar a função "consultar"
 btnConsultar.addEventListener("click", function (event) {
     event.preventDefault();
     consultar();
 });
 
+// Função que faz uma requisição para a API com a cidade e estado informados
 function consultar() {
+    // Obtém a cidade e estado informados pelo usuário
     var cidadeEstado = cityTxt.value;
+
+    // Faz uma requisição para a API, espera a resposta, a transforma em JSON
+    // e, em seguida, preenche os elementos HTML com as informações da previsão do tempo
     fetch(`http://localhost:3000/${cidadeEstado}`)
         .then(response => response.json())
         .then(resultado => {
