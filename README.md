@@ -19,7 +19,7 @@ git clone https://github.com/S4lathiel/previsaodoTempo.git
 2. Navigate to the project directory:
 
 ```bash
-cd weather-forecast-app
+cd previsaodoTempo
 ```
 
 3. Install the dependencies:
