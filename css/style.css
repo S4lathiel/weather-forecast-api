@@ -1,79 +1,93 @@
+/* Background and text color for the entire weather app */
 .weather-bg {
     background-color: #2c3e50;
     color: white;
-  }
-  
-  .title {
+}
+
+/* Centered title with padding */
+.title {
     text-align: center;
     padding: 20px;
-  }
-  
-  .weather-container {
+}
+
+/* Padding for the weather container */
+.weather-container {
     padding: 20px;
-  }
-  
-  .weather-card {
+}
+
+/* Style for individual weather cards */
+.weather-card {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-  }
-  
-  .weather-icon {
+}
+
+/* Font size for weather icon */
+.weather-icon {
     font-size: 24px;
-  }
-  
-  .weather-title {
+}
+
+/* Bold text and padding for weather title */
+.weather-title {
     font-weight: bold;
     padding: 5px;
-  }
-  
-  .weather-detail {
+}
+
+/* Font size for weather details */
+.weather-detail {
     font-size: 16px;
-  }
-  
-  .social-icons {
+}
+
+/* Center alignment and padding for social icons */
+.social-icons {
     text-align: center;
     padding: 10px;
-  }
-  
-  .social-icons a {
+}
+
+/* White color for social icons with margin */
+.social-icons a {
     color: white;
     margin: 0 15px;
     font-size: 24px;
-  }
-  
-  .social-icons a:hover {
+}
+
+/* Color change on hover for social icons */
+.social-icons a:hover {
     color: lightblue;
-  }
-  
-  .form-group {
+}
+
+/* Max width and center alignment for form group */
+.form-group {
     max-width: 300px;
     margin: 0 auto;
-  }
-  
-  .card {
+}
+
+/* Card style with background color, radius, padding, margin, and alignment */
+.card {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     text-align: center;
-  }
-  
-  .card img {
+}
+
+/* Size for images within cards */
+.card img {
     width: 30px;
     height: 30px;
-  }
-  
-  .container .form {
+}
+
+/* Style for the container including alignment and positioning of the form elements */
+.container .form {
     text-align: center;
-  }
-  
-  .container .form .form-group {
+}
+
+.container .form .form-group {
     display: inline-block;
-  }
-  
-  .container .form .btn-primary {
+}
+
+.container .form .btn-primary {
     margin-left: 10px;
-  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "weather-forecast-api",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A simple weather forecast app",
   "main": "app.js",
   "scripts": {

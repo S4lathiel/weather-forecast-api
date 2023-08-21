@@ -2,30 +2,40 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Font Awesome CSS for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS file -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="weather-bg">
   <div class="container">
+    <!-- Social media icons -->
     <div class="social-icons">
       <a href="https://www.instagram.com/w.salathiel" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://www.youtube.com/salathieldsf" target="_blank"><i class="fab fa-youtube"></i></a>
       <a href="https://discord.gg/ak4ZVe9" target="_blank"><i class="fab fa-discord"></i></a>
     </div>
+    <!-- Title of the weather forecast app -->
     <h2 class="title">Previsão do Tempo</h2>
+    <!-- Form to input city name -->
     <form class="form">
       <div class="form-group">
         <label for="city">Informe o nome da cidade:</label>
         <input type="text" class="form-control" id="cityTxt" name="city">
       </div>
+      <!-- Button to consult weather -->
       <button id="consultar" class="btn btn-primary">Consultar</button>
     </form>
+    <!-- Container for weather information -->
     <div class="row weather-container"></div>
   </div>
+  <!-- Including jQuery, Popper.js, and Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript file -->
   <script src="./js/index.js"></script>
 </body>
 </html>
