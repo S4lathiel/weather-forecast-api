@@ -13,13 +13,13 @@ This is a simple app that utilizes the weather-js API to provide weather forecas
 1. Clone this repository to your computer:
 
 ```bash
-git clone https://github.com/S4lathiel/previsaodoTempo.git
+git clone https://github.com/S4lathiel/weather-forecast-api.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd previsaodoTempo
+cd weather-forecast-api
 ```
 
 3. Install the dependencies:
