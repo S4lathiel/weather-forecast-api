@@ -1,5 +1,3 @@
-Claro, peço desculpas pela omissão. Aqui está o README em inglês, incluindo as instruções para instalar a biblioteca `weather-js`:
-
 ```markdown
 # Weather Forecast App
 
