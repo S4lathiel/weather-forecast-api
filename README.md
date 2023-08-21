@@ -40,6 +40,12 @@ npm install weather-js
 node app.js
 ```
 
+**Note**: If you encounter any errors related to `cors` while starting the server, make sure you have the `cors` module installed. You can install it using the following command:
+
+```bash
+npm install cors
+```
+
 6. Open your web browser and access the following URL:
 
 ```
