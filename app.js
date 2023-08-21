@@ -11,14 +11,14 @@ const app = express();
 app.use(cors());
 
 // Configuration to serve static files from the 'css' folder
-app.use('/css', express.static(path.join(__dirname, 'css')));
+app.use('/assets/css', express.static(path.join(__dirname, 'assets/css')));
 
 // Configuration to serve static files from the 'js' folder
-app.use('/js', express.static(path.join(__dirname, 'js')));
+app.use('/assets/js', express.static(path.join(__dirname, 'assets/js')));
 
 // Route to handle requests to the root URL and send the 'previsao.html' file
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'weather-forecast.html'));
+  res.sendFile(path.join(__dirname, './views/weather-forecast.html'));
 });
 
 // Route to handle requests with city and state information
