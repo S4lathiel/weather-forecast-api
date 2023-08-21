@@ -56,7 +56,7 @@ This will open the weather forecast app interface.
 
 ## Customization
 
-- The user interface is in the `previsao.html` file.
+- The user interface is in the `weather-forecast.html` file.
 - The CSS style is in the `css` directory.
 - The JavaScript for the user interface is in the `js` directory.
 - The API server is defined in the `app.js` file.
